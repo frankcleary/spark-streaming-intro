@@ -1,0 +1,5 @@
+**/\.idea*
+java/target*
+*~
+**/*.class
+**/*.iml
