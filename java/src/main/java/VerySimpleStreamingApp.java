@@ -7,7 +7,7 @@ public class VerySimpleStreamingApp {
     private static final String HOST = "localhost";
     private static final int PORT = 9999;
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         // Configure and initialize the SparkStreamingContext
         SparkConf conf = new SparkConf()
                 .setMaster("local[*]")
